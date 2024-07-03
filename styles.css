@@ -1,0 +1,58 @@
+header {
+    background-color: grey;
+    display: flex;
+    color: grey;
+}
+nav {
+    justify-content: space-between;
+    text-align: justify;
+    margin: auto;
+    display: inline-block;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 80%;
+    padding: 10px;
+}
+.three-wide {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+  }
+main {
+    display: flex;
+    justify-content: center; 
+    margin: 20px auto;
+    margin-inline: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .one-two-wide {
+    display: flex;
+   }
+section div {
+    display : flex;
+    flex-direction: column;
+}
+
+.one-two-wide p {
+    overflow: scroll;
+    height: 400px;
+    font-size: 20px;
+}
+section {
+    margin-block: 25px;
+}
+footer {
+    background-color: grey;
+    padding: auto;
+}
+button {
+    padding: auto;
+    border-radius: 20px;
+    background-color: rgb(94, 86, 86);
+    justify-content: center;
+    align-items: center;
+}
+  
